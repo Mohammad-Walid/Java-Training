@@ -10,6 +10,7 @@ public class ArrayMethods {
 		int[] arr = new int[100];
 		Random random = new Random();
 		int counter = 0;
+		//filling array with rndom integers
 		for (@SuppressWarnings("unused") int i :arr) {
 			arr[counter++] = random.nextInt(-100, 100);
 		}
